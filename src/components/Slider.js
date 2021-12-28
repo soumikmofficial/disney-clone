@@ -61,7 +61,7 @@ const ImgContainer = styled.div`
   transition: all 0.25s ease;
   img {
     width: 100%;
-    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    box-shadow: var(--shadow-1);
   }
   &:hover {
     border: 3px solid var(--hover-white);
