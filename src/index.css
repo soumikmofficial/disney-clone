@@ -6,11 +6,16 @@
 
 :root {
   --bg-col: #121927;
+  --hover-white: rgba(255, 255, 255, 0.541);
 }
 
 html {
   font-size: 62.5%;
   font-family: Roboto, HelveticaNeue-Light, sans-serif;
+  overflow-x: hidden;
+}
+body {
+  color: white;
 }
 
 a {

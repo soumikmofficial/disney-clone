@@ -46,7 +46,7 @@ const Wrapper = styled.div`
   width: 100vw;
   padding: 0 4rem;
   background: var(--bg-col);
-  height: 7rem;
+  height: 75px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,7 +54,7 @@ const Wrapper = styled.div`
 
 const Logo = styled.div`
   img {
-    width: 6rem;
+    width: 7rem;
   }
 `;
 const Menu = styled.div`
@@ -75,6 +75,28 @@ const Menu = styled.div`
       font-size: 1.3rem;
       color: white;
       text-transform: uppercase;
+      position: relative;
+
+      &:hover {
+        &:after {
+          opacity: 1;
+          transform: scaleX(1);
+        }
+      }
+
+      &:after {
+        content: "";
+        background: white;
+        height: 0.2rem;
+        border-radius: 2rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -0.9rem;
+        opacity: 0;
+        transform: scaleX(0);
+        transition: all 0.2s ease;
+      }
 
       @media (max-width: 860px) {
         display: none;
