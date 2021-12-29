@@ -28,7 +28,7 @@ const Wrapper = styled.section`
   padding: 3rem 0 2rem;
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 1.5rem;
 `;
 const ImgContainer = styled.div`
   cursor: pointer;
