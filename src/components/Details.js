@@ -43,7 +43,6 @@ export default Details;
 const Wrapper = styled.div`
   min-height: calc(100vh - 75px);
   padding: 3rem calc(3.5vw + 5px);
-  /* background: var(--bg-col-2); */
   position: relative;
 `;
 
@@ -121,6 +120,7 @@ const AddBtn = styled.button`
   border-radius: 50%;
   border: 1px solid var(--border-white);
   transition: var(--ease-quick);
+  cursor: pointer;
 
   &:hover {
     background: var(--hover-3);
@@ -139,11 +139,11 @@ const GroupBtn = styled(AddBtn)`
 
 const Subtitle = styled.div`
   margin-bottom: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 `;
 const Description = styled.div`
   width: clamp(100px, 100%, 500px);
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-family: var(--body-font);
   line-height: 1.4;
 `;
