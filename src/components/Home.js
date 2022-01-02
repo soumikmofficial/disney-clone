@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Slider from "./Slider";
 import Viewers from "./Viewers";
 import Movies from "./Movies";
-import db from "../firebase";
 
 function Home() {
   return (
